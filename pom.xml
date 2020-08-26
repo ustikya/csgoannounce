@@ -14,6 +14,14 @@
     <name>csgoannounce</name>
     <description>CS:GO Announcement Creator Backend</description>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub ustikya Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/ustikya/csgoannounce</url>
+        </repository>
+    </distributionManagement>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>

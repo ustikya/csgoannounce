@@ -18,6 +18,6 @@ public class Team {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    @OneToOne(optional = false)
+    @OneToOne
     private Logo logo;
 }
